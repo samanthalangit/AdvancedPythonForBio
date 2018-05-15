@@ -20,9 +20,9 @@ toCube = myNum
 
 if(toAdder == 5):
     finalAdder = adder(toAdder)
-    print "The result of " + str(toAdder) + " added is " + str(finalAdder)
+    print ("The result of " + str(toAdder) + " added is " + str(finalAdder))
     if(toSquare == 7):
         finalSquare = square(toSquare)
-        print "The result of " + str(toSquare) + " squared is " + str(finalSquare)
+        print ("The result of " + str(toSquare) + " squared is " + str(finalSquare))
 finalCube = cube(toCube)
-print "The result of " + str(toCube) + " cubed is " + str(finalCube)    
+print ("The result of " + str(toCube) + " cubed is " + str(finalCube))    
